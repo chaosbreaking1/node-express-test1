@@ -10,7 +10,7 @@ Array.from(todoItem).forEach((el)=>{
   el.addEventListener('click', markComplete)
 })
 
-Array.from(todoItem).forEach((el)=>{
+Array.from(todoComplete).forEach((el)=>{
   el.addEventListener('click', undo)
 })
 
